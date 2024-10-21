@@ -1,0 +1,18 @@
+@media screen and (max-width: 767px) {
+    .contactBody{
+        flex-direction: column;
+    }
+    .body1{
+        width: 100%!important;
+        padding-top: 0.2rem!important;
+        padding: 1rem !important;
+    }
+    .body2{
+        width: 100%!important;
+        padding: 1rem;
+        margin-left: 0!important;
+    }
+    .body2 > p{
+        margin-top:1.5rem!important;
+    }
+}

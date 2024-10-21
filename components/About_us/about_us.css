@@ -1,0 +1,28 @@
+@media screen and (max-width: 767px){
+    .aboutmain{
+        padding: 1rem!important;
+    }
+    .ceo{
+        width: 100%!important;
+    }
+    .aboutBody{
+        flex-direction: column!important;
+        margin-left: 0!important;
+    }
+    .aboutsub{
+        width: 100%!important;
+        margin: 0!important;
+        padding: 1rem!important;
+    }
+    .aboutContainer{
+        flex-direction: column!important;
+        margin-left: 0!important;
+    }
+    .containerSub{
+        width: 100%!important;
+        margin: 0!important;
+    }
+    .aboutHeader{
+        font-size: 1.5rem!important;
+    }
+}

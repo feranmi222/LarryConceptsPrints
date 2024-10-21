@@ -1,0 +1,102 @@
+    .service-container {
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      gap: 50px;
+      padding: 50px 20px;
+      background-color: #fffafa;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .service-card {
+      width: 200px;
+      height: 200px;
+      background-color: #333333;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    .service-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .service-icon img {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 15px;
+      object-fit: contain;/* Adjusts the icon to fit properly */
+    }
+
+    .service-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    
+    .overlays {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1000;
+    }
+    
+    .overlay-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 40%;
+      height: 50vh;
+      max-width: 90%;
+      text-align: center;
+      position: relative;
+    }
+    
+    .close-btn {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      cursor: pointer;
+      font-size: 40px;
+    }
+    
+    .modal-details img {
+      width: 100px;
+      height: auto;
+      margin: 10px 0;
+    }
+    
+
+    @media (max-width: 768px) {
+      .service-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 50px 20px;
+        background-color: #fffafa;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .service-card {
+        width: 100%;
+        max-width: 300px;
+      }
+      .overlay-content{
+        width: 100%;
+      }
+    }

@@ -1,0 +1,24 @@
+@media screen and (max-width: 767px) {
+    .sidecontainer{
+        flex-direction: column;
+        align-items:start!important;
+        padding: 0.7rem!important;
+    }
+    br{
+        display: none;
+    }
+    .side1{
+        padding: 0!important;
+        width: 100%!important; 
+    }
+    .side1 > .content2{
+        font-size: 2rem!important;
+    }
+    .side2{
+        width: 100%!important;
+    }
+    .side2 > img{
+        width: 100%!important;
+    }
+
+}

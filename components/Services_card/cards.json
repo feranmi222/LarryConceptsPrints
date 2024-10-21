@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "description": "Offset printing is a popular printing technique where inked images are transferred (or 'offset') from a plate to a rubber blanket, then onto the printing surface. It is ideal for high-volume print jobs like brochures, magazines, books, and stationery due to its cost-effectiveness and consistency."
+    },
+    {
+      "id": 2,
+      "description": "Large format printing is used for producing large-scale prints such as banners, posters, billboards, and wall graphics. It is favored for promotional materials and displays requiring high visibility."
+    },
+    {
+      "id": 3,
+      "description": " Custom packaging and label printing is the process of creating bespoke packaging solutions that are tailored to a brand's specifications. These include boxes, wraps, and labels that often incorporate branding elements like logos and colors."
+    },
+    {
+      "id": 4,
+      "description": "Sketch designing involves creating initial concept sketches, whether by hand or digitally, to visualize ideas for branding, product designs, or print layouts. It helps clients see rough drafts before the final product is created."
+    },
+    {
+      "id": 5,
+      "description": "Digital photography is the process of capturing images with digital cameras, which can be used for a variety of purposes, including advertising, promotional materials, websites, and printed content."
+    },
+    {
+      "id": 6,
+      "description": "Branded souvenir services involve creating custom, branded items such as pens, mugs, t-shirts, and other promotional gifts that carry a company's logo or message."
+    },
+    {
+      "id": 7,
+      "description": "Consultancy services offer expert advice and strategy development to businesses regarding printing solutions, marketing materials, and branding. It helps companies optimize their print processes, materials selection, and marketing strategies."
+    },
+    {
+      "id": 8,
+      "description": "Commercial printing is the process of producing high-quality print materials like flyers, brochures, posters, and business cards. This service supports businesses in promoting their products and services."
+    },
+    {
+      "id": 9,
+      "description": "Security printing is a specialized service that involves producing documents that are difficult to forge or alter. It includes printing cheques, certificates, IDs, and other important documents with embedded security features."
+    },
+    {
+      "id": 10,
+      "description": "Book printing involves the production of bound books in various formats (hardcover, paperback) and sizes. It can include printing novels, educational materials, or business reports."
+    },
+    {
+      "id": 11,
+      "description": "Vehicle branding involves applying custom designs, logos, or promotional messages to vehicles. It serves as a mobile advertisement, allowing businesses to spread brand awareness wherever their vehicles go."
+    },
+    {
+      "id": 12,
+      "description": " Textile and clothing branding involves customizing apparel such as t-shirts, caps, uniforms, and other fabric items with logos, designs, or messages. This can be done via printing, embroidery, or other techniques."
+    }
+]

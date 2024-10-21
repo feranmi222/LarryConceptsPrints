@@ -1,0 +1,114 @@
+/* Carousel.css */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;/* Full height */
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.carousel-container::before {
+  content: '';
+  display: block;
+  position: absolute;
+  inset: 0;
+  opacity: 0.4;
+  background-color: #ffa07a;
+  z-index: 2;
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0; /* Initially hidden */
+  transition: opacity 0.8s ease-in-out;/* Fade effect */
+  position: absolute;/* Position images on top of each other */
+  z-index: 1;
+}
+
+.carousel-image.active {
+  opacity: 1;/* Show active image */
+}
+
+.carousel-content {
+  position: absolute;
+  bottom: 60px;
+  left: 50%;
+  top: 70%;
+  transform: translateX(-50%);
+  color: white;
+  text-align: center;
+  z-index: 3;
+}
+
+.carousel-content h2 {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.carousel-buttons {
+  margin-top: 20px;
+}
+
+.carousel-btn {
+  background-color: #ffa07a;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.carousel-btn:hover {
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.carousel-controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  z-index: 4;
+}
+
+.previous-button,
+.next-button {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: background-color 0.3s;
+}
+
+.previous-button:hover,
+.next-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* =================== Responsive Design =================== */
+
+@media screen and (max-width: 767px) {
+  .carousel-content {
+    width: 90%;
+    top: 60%;
+    bottom: 50px;
+  }
+
+  .carousel-content h2 {
+    font-size:0.7rem; /* Slightly smaller font for smaller screens */
+    padding: 8px 16px;
+  }
+
+  .carousel-btn {
+    padding: 8px 16px;
+    font-size: 0.7rem;
+  }
+}

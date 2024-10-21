@@ -1,0 +1,70 @@
+/* Base Styles for Large Screens */
+.head_section {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:#ffa07a;
+    opacity: 0.4; /* Orange with opacity */
+  }
+  
+  .text-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 10;
+  }
+  
+  .title {
+
+    color: white;
+    font-weight: bold;
+  }
+  
+  .subtitle {
+
+    color: white;
+    font-weight: bold;
+  }
+  
+  /* Responsive Styles */
+  
+  /* For screens 768px and below */
+  @media screen and (max-width: 767px) {
+    .title {
+      font-size: 1.5rem!important;
+    }
+  
+    .subtitle {
+      font-size: 0.7rem!important;
+    }
+    .text-content{
+        width: 80%;
+    }
+  }
+  
+  
